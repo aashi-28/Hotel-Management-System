@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Book a Room</h2>
+        <form onsubmit="return bookRoom()">
+            <input type="text" id="name" placeholder="Full Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="date" id="date" required><br>
+            <select id="roomType" required>
+                <option value="">Select Room Type</option>
+                <option value="deluxe">Deluxe</option>
+                <option value="suite">Suite</option>
+                <option value="standard">Standard</option>
+            </select><br>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

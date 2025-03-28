@@ -1,0 +1,176 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+/* Navigation */
+nav {
+    background: #1abc9c;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Home Page */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?hotel,resort') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #e74c3c;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: white;
+}
+
+.feature {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #2c3e50;
+}
+
+/* Contact Page */
+.contact-info {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    padding: 8px;
+    margin: 10px 0;
+    resize: none;
+}
+
+/* Booking Page */
+.booking-container {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login Page */
+.login-container {
+    background: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #2c3e50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background: #34495e;
+}
+
+/* Dashboard Page */
+.dashboard {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    margin-top: 20px;
+}

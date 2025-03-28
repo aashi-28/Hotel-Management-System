@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Get in touch with us for any inquiries or assistance.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="booking.html">Book a Room</a>
+        <a href="login.html">Admin Login</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <div class="form-container">
+            <h2>Contact Form</h2>
+            <form onsubmit="return submitContactForm()">
+                <input type="text" id="name" placeholder="Your Name" required><br>
+                <input type="email" id="email" placeholder="Your Email" required><br>
+                <textarea id="message" placeholder="Your Message" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <h2>Our Contact Details</h2>
+        <p><strong>Address:</strong> Vishal Khand-Gomti Nagar, Lucknow, India</p>
+        <p><strong>Phone:</strong> +91 90266 39626, +91 87556 54959</p>
+        <p><strong>Email:</strong> elitestays@gmail.com</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Hotel Management System | Powered by AI & Cloud
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
